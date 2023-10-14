@@ -23,7 +23,8 @@
     
     
 }
-.home p {
+/* .home p {
+    padding-top: 4em;
     text-align: center;
     font-size: 1.5em;
     width: 40em;
@@ -34,7 +35,7 @@
         font-size: 1em;
         width: 20em;
     }
-}
+} */
 
 .chefs{
     display: flex;
@@ -43,6 +44,21 @@
     padding-top: 2em;
     
     
+}
+.nuestros-chefs {
+    text-align: center;
+    font-family: 'Bakbak One', sans-serif;
+    font-weight: bold;
+    align-self: center;
+    justify-self: center;
+    color: rgb(0, 0, 0);
+    border: 2px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(248, 105, 4), rgb(238, 231, 5));
+    box-shadow: 10px 5px 5px rgb(81, 40, 1);
+    padding: 0.5em;
+    opacity:0.8 ;
+    margin: 1em;
 }
 .chef1 {
     /* background-color: blue; */

@@ -1,0 +1,81 @@
+
+
+
+.container-home{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    
+    
+   
+    
+}
+.home img{
+    width: 100%;
+    
+    
+}
+.home p {
+    text-align: center;
+    font-size: 1.5em;
+    width: 40em;
+}
+@media (max-width: 500px){
+    .home p {
+        flex-direction: column;
+        font-size: 1em;
+        width: 20em;
+    }
+}
+
+.chefs{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-around;
+    padding-top: 2em;
+    
+    
+}
+.chef1 {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+@media (max-width: 500px){
+    .chefs{
+        flex-direction: column;
+    }
+}
+
+ .foto{
+    
+    height: 11em;
+    width: 10em;
+    padding-top: 0.5em;
+    
+} 
+.foto img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid rgb(194, 183, 183);
+}
+.nombre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;    
+} 
+.descrip {
+    width: 15em;
+}   
